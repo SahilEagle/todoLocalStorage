@@ -1,0 +1,80 @@
+body {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(315deg, #5b21c0 50%, #657dfc 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+.headline {
+    max-width: 550px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1, h3 {
+    color: #5b21c0 !important;
+    text-align: center;
+}
+
+.InputBox {
+    max-width: 550px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.todo-list {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#todo-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-items li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+/* Bootstrap override for modal */
+.modal .form-label {
+    color: #000;
+}
+
+.modal .form-control {
+    color: #000;
+}
+
+.modal .btn-primary {
+    background-color: #5b21c0;
+    border-color: #5b21c0;
+}
+
+.modal .btn-primary:hover {
+    background-color: #4a1b9e;
+    border-color: #4a1b9e;
+}
+
+p{
+    margin: 0px;
+}
